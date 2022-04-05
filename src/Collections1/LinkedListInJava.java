@@ -22,10 +22,14 @@ public class LinkedListInJava {
        al1.add(876);
        al1.add(1,"Friends");
        
+       ArrayList al2= new ArrayList();
+       al2.add("Yamini");
+       al2.add("Sravanthi");
+       
        ll.add(2,"Prathik");
        ll.addAll(al1);
        //ll.addAll(3,al1);
-//       System.out.println(ll.getFirst());
+ //      System.out.println(ll.getFirst());
 //       System.out.println(ll.getLast());
        ll.addFirst("VINAY");
        ll.addLast("Asha");
