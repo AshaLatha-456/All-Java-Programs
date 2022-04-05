@@ -23,7 +23,7 @@ public class ArrayListInJava {
     al1.add(1,"Friends");
     al.addAll(al1);
     //al.addAll(3,al1);
-   // System.out.println(al.get(3));
+    System.out.println(al.get(3));
     System.out.println(al.contains("Asha"));
     System.out.println(al.containsAll(al1));
     //al.clear();
